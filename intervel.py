@@ -1,7 +1,7 @@
 x=int(input())
 y=int(input())
-for i in range(x,y+1):
-	if ((i%2) == 0):
-		print(i)
+for r in range(x,y+1):
+	if (r%2 == 0):
+		print(r)
 	else:
 		print("")
