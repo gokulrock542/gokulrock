@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+float main()
 {
     int num,o,r,result = 0;
     printf("input:");
@@ -16,4 +16,5 @@ while (o!= 0)
      printf("yes");
  else
      printf("no");
+    return 0;
 }
