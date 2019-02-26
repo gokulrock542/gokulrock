@@ -2,12 +2,13 @@
 #include<conio.h>
 int main()
 {
-int n,i,m,x=0;
-scanf("%d\n&n);
-for(i=1;i<=n;i++)
+int n,i,m,x=1;
+scanf("%d",&n);
+for(i=1;i<=5;i++)
 {
 m=n*i;
-printf("%d*%d=%d\n",m,i,a);
+printf("%d\n",m);
 }
 return x;
+  getch();
 }
